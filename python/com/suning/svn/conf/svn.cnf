@@ -1,0 +1,9 @@
+[from]
+url = http://10.27.5.1/svn/SMA/1.1产品规划/sma_V1.0.0
+username =
+password =
+ 
+[to]
+url = http://10.27.5.1/svn/byebuy/周报/smazt_V1.0.0
+username =
+password =

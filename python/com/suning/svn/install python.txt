@@ -1,0 +1,7 @@
+1.安装Python，下载Python2.7.10
+	下载地址：https://www.python.org/downloads/
+2.执行安装，将C:\Python27\;C:\Python27\Scripts;添加到Path环境变量中
+3.下载PyDev插件
+	http://sourceforge.net/projects/pydev/files/pydev/PyDev%204.3.0/
+4.解压下载压缩包，将解压内容(features、plugins)拷贝到eclipse的根目录下
+5.打开eclipse，windows->Preferences->PyDev->Interpreters->Python Interpreters,新增Python解释器

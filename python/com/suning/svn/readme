@@ -1,0 +1,28 @@
+前言
+目前我司系统，新建的系统运维不再支持手动发布代码包，中台需要申请子系统，子系统在cd平台会分配独立的svn代码库。
+
+开发时仍然以主系统svn分支为准，发布生产前讲主svn代码拷贝一份到子svn分支即可
+
+1. 目录结构
+conf/svn.conf   // 配置文件
+work/from/      // 原svn代码存放目录
+work/to/        // 目标svn代码存放目录
+SvnMigration.py // 执行脚本
+
+2. 配置文件conf/svn.conf示例
+[from]
+url = http://10.27.164.97/svn/kxye/branches/kxye_V1.0.4
+username = user
+password = abc
+[to]
+url = http://10.27.164.97/svn/kxyezt/branches/kxyezt_V1.0.2
+username = user
+password = abc
+
+3. 执行命令
+python SvnMigration.py
+
+4. 遗留问题
+主svn代码是直接覆盖子svn代码的，如果主svn中有文件删除，子svn中文件会依然存在。
+之所以不删除子svn再copy然后commit，是因为持续交付平台目前存在bug，如果子svn全量删除然后全量提交，子svn系统自动打包会失败。
+此问题已解决
