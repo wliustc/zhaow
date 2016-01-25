@@ -1,0 +1,10 @@
+# Netscape HTTP Cookie File
+# http://www.netscape.com/newsref/std/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.shopping.suning.com	TRUE	/	FALSE		sessionId	6Kuxc9w7eoknAHy797yKE6TvhfLDPniY67q8uzs67q28zBzPVD
+.suning.com	TRUE	/	FALSE		authId	siA689113F890C111C71A876F2D48F9F50
+.suning.com	TRUE	/	FALSE		cart_abtest	B
+.suning.com	TRUE	/	FALSE	1452826467	cart_abtest_num	35
+.suning.com	TRUE	/	TRUE		secureToken	96C6A5F24A444A9051A4842ED95028DF
+passport.suning.com	FALSE	/ids/	TRUE		TGC	TGTDF32B3E4A67800D11F27858A6C98C9BC69BF1E6F

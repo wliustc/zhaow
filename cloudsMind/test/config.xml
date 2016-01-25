@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PushService>
+    <System>
+        <Queue server="127.0.0.1" port="6379" />
+        <Http server="0.0.0.0" port="9998" />
+    </System>
+    <Ios>
+        <Server addr="gateway.push.apple.com" port="2195" />
+        <Push apppath="/opt/cps/cps-pushservice/ios_push_cert" />
+        <AppPush root="AppleWWDRCA.cer" />
+        <App id="com.cloudminds.ssdk.demo">
+            <Key cert="ssdk_demo_cert.pem" key="ssdk_demo_key.pem" passwd="" root="" />
+        </App>
+        <Worker count="2" />
+    </Ios>
+    <Private>
+        <Server addr="127.0.0.1" port="1883" username="" passwd="" cafile=""/>
+        <Worker count="3" />
+    </Private>
+</PushService>
