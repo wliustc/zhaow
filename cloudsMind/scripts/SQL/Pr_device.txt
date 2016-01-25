@@ -1,0 +1,56 @@
+DELIMITER $$
+
+DROP PROCEDURE IF EXISTS `Pr_device`$$
+Create Procedure Pr_device(Times int)
+     Begin
+     -- 声明变量
+     Declare Count int;                            -- 计数器
+
+
+	 -- --------------prenatal_admin_user-------------
+		DECLARE _id bigint;
+		DECLARE _user_id BIGINT;
+		DECLARE _tenant_code varchar(64);
+		DECLARE _tenant_id bigint(16);
+		DECLARE _udid varchar(64);
+		DECLARE _imei varchar(64);
+		DECLARE _init_imsi varchar(64);
+		DECLARE _device_type tinyint(2);
+		DECLARE _platform tinyint(2);
+		DECLARE _relationship tinyint(2);
+		DECLARE _device_name varchar(64);
+		DECLARE _device_num varchar(64);
+		DECLARE _sd_serial_num varchar(64);
+		DECLARE _init_sd_serial_num varchar(64);
+		DECLARE _manufacturer varchar(128);
+		DECLARE _model varchar(128);
+		DECLARE _os varchar(128);
+		DECLARE _version_num varchar(16);
+
+
+	 set _id=20100;
+
+     set Count=1;                                    -- 初始化计数器
+
+     -- 循环体
+     While Count<(Times+1) do
+     -- BEGIN
+
+		set _id=_id+1;
+		set _user_id=round(rand()*10000+50);
+		set _imei=round(rand()*999999999999910+50);
+		set _device_name=concat('test',cast(round(rand()*10000+50) as char),'-Android-8692-M02');
+		set _sd_serial_num=concat(cast(round(rand()*45010044423+1000) as char),cast(round(rand()*450100444234+1000) as char));
+
+
+		INSERT INTO `ngem`.`t_device` (`id`, `tenant_id`, `tenant_code`, `user_id`, `udid`, `idfa`, `imei`, `imsi`, `init_imsi`, `device_type`, `platform`, `relationship`, `device_name`, `device_num`, `serial_num`, `sd_serial_num`, `init_sd_serial_num`, `iccid`, `init_iccid`, `manufacturer`, `model`, `os`, `version_num`, `phone_code`, `cpu`, `ram`, `rom_capacity`, `rom_available_capacity`, `sd_capacity`, `sd_available_capacity`, `camera`, `wifi_mac`, `bluetooth_mac`, `power_status`, `boot_time`, `capacity`, `capacity_status`, `available_capacity`, `ip`, `encryption_level`, `root_jailbreak_flag`, `last_online_time`, `online_flag`, `status`, `regist_time`, `activate_time`, `allow_rootorjailbreak_flag`, `remark`, `roaming_flag`, `update_time`, `data_encryption_flag`, `challenge`, `product_name`, `sim_change_state`, `sd_change_state`, `sync_batch_no`)
+		VALUES
+		(_id, '1', 'ngem', _user_id, NULL, NULL, NULL, NULL, NULL, '10', '1', '1', _device_name, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', '0', NULL);
+
+
+     set Count=Count+1;        
+     end WHILE;
+         
+     End $$
+DELIMITER ;
+

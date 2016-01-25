@@ -1,0 +1,326 @@
+01/03/16 15:30:56,054.998[139848210925312] WARN  Start
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:55]
+01/03/16 15:30:56,061.749[139847932000000] WARN  Start
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:55]
+01/03/16 15:30:56,606.249[139848231905024] WARN  Client has connected to server
+ [/root/cps-pushservice/src/IosPushSender.cpp:248]
+01/03/16 15:30:57,057.976[139848210925312] WARN  Connection to push server is down, wait 1s for reconnect
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:88]
+01/03/16 15:30:57,062.011[139847932000000] WARN  Connection to push server is down, wait 1s for reconnect
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:88]
+01/03/16 15:30:57,070.040[139848210925312] WARN  time=1015
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,076.045[139847932000000] WARN  time=1015
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,082.739[139848210925312] WARN  time=1027
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,088.509[139847932000000] WARN  time=1027
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,095.139[139848210925312] WARN  time=1040
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,101.019[139847932000000] WARN  time=1040
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,107.710[139848210925312] WARN  time=1052
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,113.344[139847932000000] WARN  time=1052
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,119.987[139848210925312] WARN  time=1064
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,125.771[139847932000000] WARN  time=1064
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,132.390[139848210925312] WARN  time=1077
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,138.151[139847932000000] WARN  time=1077
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,144.742[139848210925312] WARN  time=1089
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,150.640[139847932000000] WARN  time=1089
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,157.274[139848210925312] WARN  time=1102
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,163.035[139847932000000] WARN  time=1102
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,169.630[139848210925312] WARN  time=1114
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,175.288[139847932000000] WARN  time=1114
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,181.940[139848210925312] WARN  time=1126
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,187.483[139847932000000] WARN  time=1126
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,194.402[139848210925312] WARN  time=1139
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,199.930[139847932000000] WARN  time=1138
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,206.806[139848210925312] WARN  time=1151
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,212.348[139847932000000] WARN  time=1151
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,219.393[139848210925312] WARN  time=1164
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,225.080[139847932000000] WARN  time=1164
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,231.802[139848210925312] WARN  time=1176
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,237.498[139847932000000] WARN  time=1176
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,244.254[139848210925312] WARN  time=1189
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,249.985[139847932000000] WARN  time=1188
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,256.670[139848210925312] WARN  time=1201
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,262.383[139847932000000] WARN  time=1201
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,269.176[139848210925312] WARN  time=1214
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,274.909[139847932000000] WARN  time=1213
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,281.537[139848210925312] WARN  time=1226
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,287.251[139847932000000] WARN  time=1226
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,293.990[139848210925312] WARN  time=1238
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,299.086[139848221415168] WARN  Client has connected to server
+ [/root/cps-pushservice/src/IosPushSender.cpp:248]
+01/03/16 15:30:57,299.554[139847932000000] WARN  time=1238
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,306.500[139848210925312] WARN  time=1251
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,311.854[139847932000000] WARN  time=1250
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,318.915[139848210925312] WARN  time=1263
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,324.393[139847932000000] WARN  time=1263
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,331.329[139848210925312] WARN  time=1276
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,336.949[139847932000000] WARN  time=1275
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,344.087[139848210925312] WARN  time=1289
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,349.472[139847932000000] WARN  time=1288
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,356.612[139848210925312] WARN  time=1301
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,362.049[139847932000000] WARN  time=1301
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,369.064[139848210925312] WARN  time=1314
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,374.574[139847932000000] WARN  time=1313
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,381.469[139848210925312] WARN  time=1326
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,387.047[139847932000000] WARN  time=1326
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,393.887[139848210925312] WARN  time=1338
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,399.535[139847932000000] WARN  time=1338
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,406.418[139848210925312] WARN  time=1351
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,412.002[139847932000000] WARN  time=1350
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,418.990[139848210925312] WARN  time=1363
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,424.546[139847932000000] WARN  time=1363
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,431.440[139848210925312] WARN  time=1376
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,436.990[139847932000000] WARN  time=1375
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,444.514[139848210925312] WARN  time=1389
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,450.178[139847932000000] WARN  time=1389
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,457.201[139848210925312] WARN  time=1402
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,462.730[139847932000000] WARN  time=1401
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,469.690[139848210925312] WARN  time=1414
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,475.218[139847932000000] WARN  time=1414
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,482.071[139848210925312] WARN  time=1427
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,487.726[139847932000000] WARN  time=1426
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,494.494[139848210925312] WARN  time=1439
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,500.190[139847932000000] WARN  time=1439
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,507.027[139848210925312] WARN  time=1452
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,512.653[139847932000000] WARN  time=1451
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,519.526[139848210925312] WARN  time=1464
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,525.162[139847932000000] WARN  time=1464
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,532.373[139848210925312] WARN  time=1477
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,537.989[139847932000000] WARN  time=1476
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,545.101[139848210925312] WARN  time=1490
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,550.752[139847932000000] WARN  time=1489
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,557.655[139848210925312] WARN  time=1502
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,563.313[139847932000000] WARN  time=1502
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,570.359[139848210925312] WARN  time=1515
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,575.915[139847932000000] WARN  time=1514
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,583.101[139848210925312] WARN  time=1528
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,588.497[139847932000000] WARN  time=1527
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,595.832[139848210925312] WARN  time=1540
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,601.096[139847932000000] WARN  time=1540
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,608.344[139848210925312] WARN  time=1553
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,613.829[139847932000000] WARN  time=1552
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,621.206[139848210925312] WARN  time=1566
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,626.535[139847932000000] WARN  time=1565
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,633.747[139848210925312] WARN  time=1578
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,639.192[139847932000000] WARN  time=1578
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,646.280[139848210925312] WARN  time=1591
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,651.653[139847932000000] WARN  time=1590
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,658.742[139848210925312] WARN  time=1603
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,664.237[139847932000000] WARN  time=1603
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,671.251[139848210925312] WARN  time=1616
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,677.047[139847932000000] WARN  time=1616
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,683.907[139848210925312] WARN  time=1628
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,689.583[139847932000000] WARN  time=1628
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,696.675[139848210925312] WARN  time=1641
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,702.268[139847932000000] WARN  time=1641
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,709.181[139848210925312] WARN  time=1654
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,714.853[139847932000000] WARN  time=1653
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,721.819[139848210925312] WARN  time=1666
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,727.479[139847932000000] WARN  time=1666
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,734.376[139848210925312] WARN  time=1679
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,740.146[139847932000000] WARN  time=1679
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,746.918[139848210925312] WARN  time=1691
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,752.814[139847932000000] WARN  time=1691
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,759.583[139848210925312] WARN  time=1704
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,765.403[139847932000000] WARN  time=1704
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,772.265[139848210925312] WARN  time=1717
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,777.926[139847932000000] WARN  time=1716
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,784.923[139848210925312] WARN  time=1729
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,790.575[139847932000000] WARN  time=1729
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,797.408[139848210925312] WARN  time=1742
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,803.068[139847932000000] WARN  time=1742
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,809.999[139848210925312] WARN  time=1754
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,815.513[139847932000000] WARN  time=1754
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,822.797[139848210925312] WARN  time=1767
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,828.325[139847932000000] WARN  time=1767
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,835.551[139848210925312] WARN  time=1780
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,840.893[139847932000000] WARN  time=1779
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,848.241[139848210925312] WARN  time=1793
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,853.427[139847932000000] WARN  time=1792
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,860.810[139848210925312] WARN  time=1805
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,866.099[139847932000000] WARN  time=1805
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,873.540[139848210925312] WARN  time=1818
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,878.593[139847932000000] WARN  time=1817
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,886.157[139848210925312] WARN  time=1831
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,891.170[139847932000000] WARN  time=1830
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,898.780[139848210925312] WARN  time=1843
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,903.722[139847932000000] WARN  time=1842
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,911.545[139848210925312] WARN  time=1856
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,916.358[139847932000000] WARN  time=1855
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,924.112[139848210925312] WARN  time=1869
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,929.056[139847932000000] WARN  time=1868
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,936.771[139848210925312] WARN  time=1881
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,941.683[139847932000000] WARN  time=1880
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,949.365[139848210925312] WARN  time=1894
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,954.342[139847932000000] WARN  time=1893
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,962.037[139848210925312] WARN  time=1907
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,967.003[139847932000000] WARN  time=1906
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,974.725[139848210925312] WARN  time=1919
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,979.516[139847932000000] WARN  time=1918
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,987.480[139848210925312] WARN  time=1932
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:57,992.113[139847932000000] WARN  time=1931
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:58,000.164[139848210925312] WARN  time=1945
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:58,004.791[139847932000000] WARN  time=1943
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:58,012.612[139848210925312] WARN  time=1957
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:58,017.602[139847932000000] WARN  time=1956
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:58,025.435[139848210925312] WARN  time=1970
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:58,030.316[139847932000000] WARN  time=1969
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:58,038.090[139848210925312] WARN  time=1983
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:58,042.846[139847932000000] WARN  time=1981
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]
+01/03/16 15:30:58,050.763[139848210925312] WARN  time=1995
+ [/root/cps-pushservice/src/PrivatePushWorker.cpp:77]

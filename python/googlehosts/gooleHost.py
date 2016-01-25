@@ -24,14 +24,15 @@ def getRAR():
         shutil.rmtree(downloadDir)
         os.mkdir(downloadDir)
     dateList=[]
+    rarName=[]
     for everyURL in urlList:
         wordItems = ''.join(everyURL).split('/')
         for item in wordItems:
             if re.match('.*\.rar$', item):
-                rarName = item
-                localPDF = os.path.join(downloadDir,rarName)
+                rarName.append(item)
                 # date=datetime.datetime.strptime(rarName[0:8],'%Y%m%d')
-                dateList.append(rarName[0:8])
+                dateList.append(item[0:8])
+    localPDF = os.path.join(downloadDir,rarName[0])
     sum=[]
     for date in dateList:
         sum.append(date)
@@ -45,7 +46,7 @@ def getRAR():
                 urllib.urlretrieve(''.join(str),localPDF)
             except Exception,e:
                 print '下载失败'
-    return rarName
+    return rarName[0]
 
 def unRAR(filename):
     # #windows RAR解压缩命令
@@ -64,7 +65,7 @@ def shosts(downloadDir):
                 f=open(filepath,'r')
                 lines=f.read()
                 for index,line in enumerate(lines.splitlines()):
-                    if re.match(r'^# Modify hosts start$', line):
+                    if re.match(r'^# __AD_Intercept__BBBBB', line):#^# Modify hosts start$   ^# __AD_Intercept__BBBBB$
                         iplist=lines.splitlines()[index:]
                 f.close()
     return iplist
@@ -98,7 +99,7 @@ def localhosts(hostslist):
     os.remove(path)
     os.rename(temp,path)
     shutil.rmtree(downloadDir)
-    print '已经可以通过浏览器访问google了，去试一下！！！！！'
+    # print '已经可以通过浏览器访问google了，去试一下！！！！！'
 
 if __name__ == '__main__':
     filename=getRAR()

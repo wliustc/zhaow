@@ -1,0 +1,2 @@
+1.导入paramiko模块，用于连接linux操作系统
+2.导入redis模块，对reids进行操作，远程需开启redis端口
